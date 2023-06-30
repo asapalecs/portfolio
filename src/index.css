@@ -4,6 +4,25 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
 
+/* For Webkit-based browsers (e.g., Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 10px; /* width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #0a192f; /* color of the scrollbar track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #8940e2, #f8961e);
+}
+  
+  ::-webkit-scrollbar-thumb:hover {
+    width: 12px;
+  }
+
+
 @layer base {
     body {
         @apply font-[Raleway];
@@ -12,4 +31,19 @@
         @apply px-4;
         @apply cursor-pointer
     }
+}
+
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.content-div:hover {
+    background-image: linear-gradient(
+        to right,
+        #8940e2,
+        #f8961e
+    )!important;
 }

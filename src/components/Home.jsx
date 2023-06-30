@@ -6,7 +6,7 @@ const Home = () => {
     <div name="home" className="w-full h-screen bg-[#0a192f]">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-[#fb6f92]">Hi, my name is</p>
+        <p className="text-[#f8961e]">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
           Alexandru Cristinescu
         </h1>
@@ -19,7 +19,7 @@ const Home = () => {
           responsive full-stack web applications.
         </p>
         <div>
-          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#fb6f92] hover:border-[#fb6f92]">
+          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#f8961e] hover:border-[#f8961e]">
             View Work
             <span className="group-hover:rotate-90 duration-300 flex items-center">
               <HiArrowNarrowRight className="ml-3 " />
