@@ -50,27 +50,4 @@ export const data=[
         github:"",
         live:"",
     },
-    {
-        id:7,
-        name:"Resume Generator",
-        image:resumeGen,
-        github:"",
-        live:"",
-    },
-    {
-        id:8,
-        name:"TaskMaster App",
-        image:toDoapp,
-        github:"",
-        live:"",
-    },
-    {
-        id:9,
-        name:"PomoFocus",
-        image:pomodoro,
-        github:"",
-        live:"",
-    },
-
-
 ]
