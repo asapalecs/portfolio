@@ -6,7 +6,7 @@ import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
 import Node from "../assets/node.png";
 import GitHub from "../assets/github.png";
-import PHP from "../assets/php.png";
+import NEXT from "../assets/nextjs.png";
 import Mongo from "../assets/mongo.png";
 
 const Skills = () => {
@@ -45,8 +45,8 @@ const Skills = () => {
                 <p className="my-4">NodeJS</p>
             </div>
             <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-                <img className="w-20 mx-auto" src={PHP} alt="PHP icon" />
-                <p className="my-4">PHP</p>
+                <img className="w-20 mx-auto" src={NEXT} alt="NEXT icon" />
+                <p className="my-4">NextJS</p>
             </div>
             <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
                 <img className="w-20 mx-auto" src={Mongo} alt="Mongo icon" />

@@ -1,52 +1,51 @@
-import WorkIm from '../assets/projects/workImg.jpeg'
-import RealEst from '../assets/projects/realestate.jpg'
-import leCanvas from '../assets/projects/lecanvas.png'
-import foodRes from '../assets/projects/foodrestaurant.PNG'
-import toDoapp from '../assets/projects/todoapp.PNG'
-import pomodoro from '../assets/projects/pomodoro.png'
-import resumeGen from '../assets/projects/cvgenerator.PNG'
-import travel from '../assets/projects/travel.PNG'
+import Project1 from '../assets/projects/1.png'
+import Project2 from '../assets/projects/2.PNG'
+import Project3 from '../assets/projects/3.png'
+import Project4 from '../assets/projects/4.png'
+import Project5 from '../assets/projects/5.png'
+import Project6 from '../assets/projects/6.png'
+
 
 export const data=[
     {
         id:1,
-        name:"React JS Application",
-        image:WorkIm,
+        name:"Full Stack E-Commerce + Dashboard & CMS",
+        image:Project1,
         github:"",
         live:"",
     },
     {
         id:2,
-        name:"React JS Application",
-        image:RealEst,
+        name:"Full Stack Booking App",
+        image:Project2,
         github:"",
         live:"",
     },
     {
         id:3,
-        name:"LeCanvas Website",
-        image:leCanvas,
+        name:"Full Stack Food Ordering App",
+        image:Project3,
         github:"https://github.com/asapalecs/LeCanvas",
         live:"",
     },
     {
         id:4,
-        name:"React JS Application",
-        image:RealEst,
-        github:"",
+        name:"LeCanvas Website",
+        image: Project4,
+        github:"https://github.com/asapalecs/LeCanvas",
         live:"",
     },
     {
         id:5,
-        name:"Travel Wesite",
-        image:travel,
+        name:"Local Restaurant Landing Page",
+        image:Project5,
         github:"",
         live:"",
     },
     {
         id:6,
-        name:"Healthy Food Website",
-        image:foodRes,
+        name:"Travel Agency Landing Page",
+        image:Project6,
         github:"",
         live:"",
     },
